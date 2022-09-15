@@ -23353,26 +23353,6 @@ a:hover .text-inherit {
     max-width: 50%;
   }
 
-  #hsForm_7fc03a1a-67fb-4ebe-93bd-a9de7276d81b > fieldset.form-columns-0 {
-    max-width:100%!important;
-  }
-
-  .hs-form-7fc03a1a-67fb-4ebe-93bd-a9de7276d81b_23081831-c174-4c67-989a-3758888a129f fieldset {
-    max-width:100%!important;
-  }
-
-  #hsForm_7fc03a1a-67fb-4ebe-93bd-a9de7276d81b > fieldset {
-    max-width:100%!important;
-  }
-
-  .hs-form-7fc03a1a-67fb-4ebe-93bd-a9de7276d81b_34b10270-92f2-4519-8ba5-b5c08b2ca7a1 fieldset {
-    max-width:100%!important;
-  }
-
-  .hs-form fieldset {
-    max-width: none!important;
-    }
-
-    fieldset {
-        max-width:100%!important;
+    .cardPadFix {
+        padding: 0.75rem 1.75rem;
     }
