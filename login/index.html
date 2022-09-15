@@ -45,28 +45,27 @@
                 <div class="col-md-8">
                   <div class="card-body">
                     <!-- Form -->
-                    <form class="js-validate needs-validation" novalidate>
+                    <form method="post" action="https://www.customfit.me/process.aspx" class="login100-form validate-form" novalidate>
                       <div class="text-center">
                         <div class="mb-5">
                           <h3 class="card-title">Log In To CustomFit</h3>
                         </div>
                       </div>
                       <!-- Form -->
-                      <div class="mb-4">
-                        <label class="form-label" for="signinSrEmail">Account Number</label>
-                        <input type="email" class="form-control form-control-lg" name="email" id="signinSrEmail" tabindex="1" placeholder="Enter company account number" aria-label="Enter company account number" required>
+                      <div class="mb-4" data-validate="Account Is Required">
+                        <label class="form-label" for="txtCustomerNumber">Account Number</label>
+                        <input type="text" class="form-control form-control-lg" name="txtCustomerNumber" id="txtCustomerNumber" tabindex="1" placeholder="Enter company account number" aria-label="Enter company account number" required>
                       </div>
                       <!-- End Form -->
-                      <div class="mb-4">
-                        <label class="form-label" for="signinSrEmail">Location Number</label>
-                        <input type="email" class="form-control form-control-lg" name="email" id="signinSrEmail" tabindex="1" placeholder="Enter company location number" aria-label="Enter company location number" required>
+                      <div class="mb-4" data-validate="Location Is Required">
+                        <label class="form-label" for="txtLocationNumber">Location Number</label>
+                        <input type="text" class="form-control form-control-lg" name="txtLocationNumber" id="txtLocationNumber" tabindex="1" placeholder="Enter company location number" aria-label="Enter company location number" required>
                       </div>
                       <!-- Form -->
                       <div class="mb-4">
-                        <label class="form-label" for="signupSrPassword" tabindex="0">Password</label>
-
+                        <label class="form-label" for="txtPassword" tabindex="0">Password</label>
                         <div class="input-group-merge">
-                          <input type="password" class="js-toggle-password form-control form-control-lg" name="password" id="signupSrPassword" placeholder="Enter your password" aria-label="Enter your password" required minlength="8"
+                          <input type="password" class="js-toggle-password form-control form-control-lg" name="txtPassword" id="txtPassword" placeholder="Enter your password" aria-label="Enter your password" required minlength="4"
                                  data-hs-toggle-password-options='{
                                    "target": "#changePassTarget",
                                    "defaultClass": "bi-eye-slash",
@@ -84,8 +83,8 @@
 
                      
 
-                      <div class="d-grid gap-4">
-                        <button type="submit" class="btn btn-primary btn-lg">Sign In</button>
+                      <div class="d-grid gap-4 login100-form-bgbtn">
+                        <button type="submit" class="btn btn-primary btn-lg login100-form-btn">Sign In</button>
                         <span class="divider-center text-muted mb-1">OR</span>
                         <p class="card-text text-muted">Don't have an account yet? <a class="link" href="../page-signup.html">Talk to one of our reps</a></p>
                       </div>
