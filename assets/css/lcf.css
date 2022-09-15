@@ -23372,3 +23372,7 @@ a:hover .text-inherit {
   .hs-form fieldset {
     max-width: none!important;
     }
+
+    fieldset {
+        max-width:100%!important;
+    }
