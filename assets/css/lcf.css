@@ -23376,3 +23376,7 @@ a:hover .text-inherit {
     fieldset {
         max-width:100%!important;
     }
+
+    fieldsetMax  {
+        max-width:100%!important;
+    }
