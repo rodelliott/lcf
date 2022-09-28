@@ -3553,8 +3553,8 @@ fieldset:disabled .btn {
 }
 .btn-outline-dark:hover {
     color: #fff;
-    background-color: #2d374b;
-    border-color: #2d374b;
+    background-color: #222;
+    border-color: #222;
 }
 .btn-check:focus + .btn-outline-dark,
 .btn-outline-dark:focus {
@@ -23351,4 +23351,12 @@ a:hover .text-inherit {
 
   .maxWidth50 {
     max-width: 50%;
+  }
+
+  .noPadTop {
+    padding-top: 0rem!important;
+  }
+
+  .darkTextShadow {
+    text-shadow: 2px 2px 4px #000;
   }
